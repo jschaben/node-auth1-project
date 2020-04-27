@@ -4,7 +4,7 @@ const cors = require('cors');
 const session = require('express-session');
 
 
-const usersRouter = require('./users/users-router');
+const usersRouter = require('./users/users.router');
 const authRouter = require('./auth/auth-router.js');
 const loginRouter = require('./login/login-router.js');
 
